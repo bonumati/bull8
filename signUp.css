@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+body{
+    background: url('img/bgs.jpg') no-repeat center center fixed;
+    background: cover;
+    background-size: 100vw 100vh;
+}
+
+.main {
+    display: flex;
+    height: 97vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 56px;
+    background-color: #9fdbfb;
+}
+.h-primary{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.myForm{
+    margin-top: 12px;
+}
+.form-group input{
+    /* background: none; */
+    width: 350px;
+    padding: 12px;
+    margin: 8px;
+    background: none;
+    color: black;
+    font-weight: 800;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: rgb(73, 71, 71);
+    font-weight: 800;
+}
+
+.btn{
+    width: 80px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid grey;
+    cursor: pointer;
+    margin: 10px;
+}
+.container p{
+    font-size: 1.1rem;
+    margin: 18px;
+}
+
+/* navbar */
+.logo{
+        width:20%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-left: 21px;
+        margin-right: -45px;
+    }
+    .logo img{
+        width: 26%;
+        border: 3px solid white;
+        border-radius: 50px;
+    }
+    
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        position: fixed;
+        top: 0px;
+        margin-top: 8px;
+        
+    }
+    .nav-list{
+        width: 70%; 
+        display: flex; 
+        align-items: center;
+    }
+     .nav-list li{
+        list-style: none;
+        padding: 20px 30px;
+    }
+    
+    .nav-list li a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 23px;
+        font-weight: 700;
+        font-family: 'Girassol', cursive  
+    }
+    
+    .nav-list li a:hover{ 
+        color: rgb(211, 30, 30);
+    }  
+    .btn-big{
+        width: 85px;
+        padding: 13px;
+        border-radius: 30px;
+        background-color: #fbc050;
+        cursor: pointer;
+    }
+
+    .text-footer{
+        text-align: center;
+        padding: 30px 0;
+       font-family: 'Ubuntu', sans-serif; 
+       
+       
+    }
+    footer{
+        height: 20px;
+        background-color: black;
+    }
+    footer p{
+        color: whitesmoke;
+        text-align: center;
+    }
+
+

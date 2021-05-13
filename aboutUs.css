@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+body{
+    /* background: url('img/bgs.jpg') no-repeat center center fixed; */
+    background: cover;
+    background-color: aquamarine;
+    background-size: 100vw 100vh;
+}
+.logo{
+    width:20%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 21px;
+    margin-right: -45px;
+}
+.logo img{
+    width: 26%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: fixed;
+    top: 0px;
+    margin-top: 8px;
+    
+}
+.nav-list{
+    width: 70%; 
+    display: flex; 
+    align-items: center;
+}
+ .nav-list li{
+    list-style: none;
+    padding: 20px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-weight: 700;  
+    font-family: 'Girassol', cursive
+}
+
+.nav-list li a:hover{ 
+    color: rgb(211, 30, 30);
+}  
+.btn-big{
+    width: 85px;
+    padding: 13px;
+    border-radius: 30px;
+    background-color: #fbc050;
+    cursor: pointer;
+}
+.container{
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    padding: 12px;
+    background-color: #c7abfb;
+    border: 1px solid black;
+    margin-top: 150px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 54px -6px rgba(222, 19, 230, 0.75);
+}
+.container h1{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Goblin One', cursive;
+}
+.container p{
+    font-size: 18px;
+    font-family: 'Girassol', cursive;
+    
+}
+
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+   font-family: 'Ubuntu', sans-serif; 
+   display: flex;
+   justify-content: center;
+   
+}
+
+footer p{
+    color: whitesmoke;
+    text-align: center;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: black;            /* Footer height */
+  }
