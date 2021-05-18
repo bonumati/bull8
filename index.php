@@ -1,3 +1,19 @@
+<?php
+session_start();
+if(isset($_SESSION['id']))
+{
+	$uid=  $_SESSION['id'];
+    $displayName = $_SESSION['displayName'];
+    $buttons = '<a style="color:white;font-size: 15pt;margin-top: 10px;">'.$displayName.'</a>';
+    $logout = '<li><a href="logout.php">Log Out</a></li>';
+}
+else
+{
+  $buttons='<a href="login.php"><button class="btn btn-big">Login</button></a>';
+  $logout = '';
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,15 +29,19 @@
     <header>
         <nav class="navbar h-nav-resp">
             <ul class="nav-list v-class-resp">
-                <div class="logo"><a href="index.html"><img src="img/logo2.jpg" alt="logo"></a></div>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutUs.html">About Us</a></li>
-                <li><a href="myevent.html">My Events</a></li>
+                <div class="logo"><a href="index.php"><img src="img/logo2.jpg" alt="logo"></a></div>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="aboutUs.php">About Us</a></li>
+                <li><a href="myevent.php">My Events</a></li>
+                 <?php 
+                echo $logout;
+                ?>
             </ul>
             <div class="rightNav v-class-resp">
-                <a href="login.html" target="_blank"><img src="img/user.svg" class="user" alt="user"></a>
-                <a href="login.html" target="_blank">
-                    <button class="btn btn-big">Login</button></a>
+                <a><img src="img/user.svg" class="user" alt="user"></a>
+                <?php 
+                echo $buttons;
+                ?>
             </div>
         </nav>
     </header>
@@ -35,7 +55,7 @@
                         players fight to remain the last alive. Players can choose to enter the match solo, duo, or with
                         a
                         small team of up to four people. The last person or team alive wins the match</p>
-                    <a href="enrollnow.html">
+                    <a href="enrollnow.php">
                         <button class="btnEve"> ENROLL NOW</button></a>
                 </div>
 
@@ -51,7 +71,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptas cumque voluptatum,
                     dignissimos
                     vitae eveniet odio ullam repellat expedita vero? </p>
-                <a href='enrollnow.html'>
+                <a href='enrollnow.php'>
                     <button class="btnEve">ENROLL NOW</button>
                 </a>
 
@@ -76,7 +96,7 @@
                     iusto
                     soluta iste minus voluptatibus perferendis vel, dolorum atque nesciunt!
                 </p>
-                <a href='enrollnow.html'>
+                <a href='enrollnow.php'>
                     <button class="btnEve">ENROLL NOW</button>
                 </a>
             </div>
@@ -94,7 +114,7 @@
                     repellendus vero quae ratione esse reprehenderit accusamus voluptas nemo minus quidem accusantium
                     voluptatem repudiandae obcaecati impedit!
                 </p>
-                <a href='enrollnow.html'>
+                <a href='enrollnow.php'>
                     <button class="btnEve">ENROLL NOW</button>
                 </a>
             </div>

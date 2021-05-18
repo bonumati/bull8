@@ -23,7 +23,6 @@
     justify-content: left;
     position: fixed;
     top: 0px;
-    margin-top: 8px;
     background-color: black;
     
 }
@@ -48,6 +47,19 @@
 .nav-list li a:hover{ 
     color: rgb(211, 30, 30);
 }  
+.user{
+    width: 20px;
+    margin-right: 9px;
+    filter: invert(100%);
+    cursor: pointer;
+    margin-top: 10px;
+}
+.rightNav{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
 .btn-big{
     width: 85px;
     padding: 13px;

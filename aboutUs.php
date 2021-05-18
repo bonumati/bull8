@@ -13,10 +13,10 @@
     <div class="main">
         <nav class="navbar h-nav-resp">
             <ul class="nav-list v-class-resp">
-                <div class="logo"><a href="index.html"><img src="img/logo2.jpg" alt="logo"></a></div>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutUs.html">About Us</a></li>
-                <li><a href="myevent.html">My Events</a></li>
+                <div class="logo"><a href="index.php"><img src="img/logo2.jpg" alt="logo"></a></div>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="aboutUs.php">About Us</a></li>
+                <li><a href="myevent.php">My Events</a></li>
             </ul>
         </nav>
         <div class="container">
