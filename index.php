@@ -65,12 +65,7 @@ else
         <section class="section">
             <div class="paras">
                 <p class="sectionTag text-big">CALL OF DUTY</p>
-                <p class="sectionSubTag text-small font">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Placeat
-                    incidunt illum repellat debitis asperiores quidem, doloribus soluta laborum! Porro, ducimus.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptas cumque voluptatum,
-                    dignissimos
-                    vitae eveniet odio ullam repellat expedita vero? </p>
+                <p class="sectionSubTag text-small font">Call of Duty is a first-person shooter video game franchise published by Activision. Starting out in 2003, it first focused on games set in World War II. Over time, the series has seen games set in the midst of the Cold War, futuristic worlds, and outer space </p>
                 <a href='enrollnow.php'>
                     <button class="btnEve">ENROLL NOW</button>
                 </a>
@@ -85,16 +80,7 @@ else
         <section class="section section-left" id="about">
             <div class="paras">
                 <p class="sectionTag text-big font">APEX LEGENDS</p>
-                <p class="sectionSubTag text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint culpa
-                    modi
-                    error aut eos illum. Laudantium, placeat. Ea vel ab reprehenderit excepturi facere possimus
-                    doloribus!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolorem dolore accusantium iusto
-                    quia
-                    deleniti recusandae dolor natus saepe. Corruption Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Quisquam, accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eveniet
-                    iusto
-                    soluta iste minus voluptatibus perferendis vel, dolorum atque nesciunt!
+                <p class="sectionSubTag text-small">Apex Legends is a free-to-play hero battle royale game developed by Respawn Entertainment and published by Electronic Arts. It was released for Microsoft Windows, PlayStation 4, and Xbox One in February 2019, and for Nintendo Switch in March 2021. 
                 </p>
                 <a href='enrollnow.php'>
                     <button class="btnEve">ENROLL NOW</button>
@@ -107,12 +93,7 @@ else
         <section class="section" id="services">
             <div class="paras">
                 <p class="sectionTag text-big font">DOTA 2</p>
-                <p class="sectionSubTag text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ad
-                    quas.
-                    Culpa omnis nulla sed soluta dolorem? At quod amet facilis? Earum debitis veniam similique autem?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A officiis aperiam sequi quos, molestias
-                    repellendus vero quae ratione esse reprehenderit accusamus voluptas nemo minus quidem accusantium
-                    voluptatem repudiandae obcaecati impedit!
+                <p class="sectionSubTag text-small">Dota 2 is a multiplayer online battle arena video game developed and published by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III: Reign of Chaos!!
                 </p>
                 <a href='enrollnow.php'>
                     <button class="btnEve">ENROLL NOW</button>
