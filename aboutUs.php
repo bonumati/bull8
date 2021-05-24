@@ -22,14 +22,14 @@
         <div class="container">
             <h1>Bull8</h1>
             <p>Esport website was created by a team of gamers who strongly feel that Indian players need a
-stage to jump start their gaming careers. Participating in tournament will not only give amateur
-and professional gamers the ability to earn some serious cash, top tier gamers will also receive
-an opportunity to compete with other professionals on a national level! If you want to level up
-your life and make a career playing your favourite games, esport is here for you. Keep an eye out
-for tournaments updated daily.
-eSports is a Professional eSports Organization that organize events across the globe in various
-titles such as C, DOTA 2, PUBG, Apex Legends, call of duty
-</p>
+            stage to jump start their gaming careers. Participating in tournament will not only give amateur
+            and professional gamers the ability to earn some serious cash, top tier gamers will also receive
+            an opportunity to compete with other professionals on a national level! If you want to level up
+            your life and make a career playing your favourite games, esport is here for you. Keep an eye out
+            for tournaments updated daily.
+            eSports is a Professional eSports Organization that organize events across the globe in various
+            titles such as C, DOTA 2, PUBG, Apex Legends, call of duty
+            </p>
         </div>
         <footer id="footer">
             <p text-footer>&copy; Copyright 2021 esports.com</p>
